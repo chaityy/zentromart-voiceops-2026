@@ -1,0 +1,15 @@
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+data/
+dataset/
+Capstone_Project_Dataset_FTTT_2026/
+outputs/
+sample_outputs/
+tools/tickets_created.csv
+*.wav
+*.mp3
