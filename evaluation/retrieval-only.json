@@ -1,0 +1,887 @@
+{
+  "title": "ZentroMart VoiceOps question retrieval-only evaluation",
+  "generated_on": "2026-10-25",
+  "status": "blocked",
+  "mode": "rag",
+  "reason": "OPENAI_API_KEY is not set. Add your own LLM credential locally; no live answers were generated.",
+  "retrieval_only": {
+    "cases": 52,
+    "cases_with_kb_gold": 47,
+    "gold_section_recall_at_k": 0.723404255319149,
+    "k": 8,
+    "per_case": [
+      {
+        "id": "PQ0002",
+        "gold_sections": [
+          "WAR-2"
+        ],
+        "retrieved_sections": [
+          "DWM-4",
+          "MKS-3",
+          "PAY-1",
+          "PAY-4",
+          "PLS-1",
+          "RET-1",
+          "STY-1",
+          "WAR-2"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0003",
+        "gold_sections": [
+          "KB-00.1",
+          "REF-2"
+        ],
+        "retrieved_sections": [
+          "DEL-4",
+          "FAQ-1",
+          "MKS-2",
+          "MKT-1",
+          "PAY-1",
+          "PAY-4",
+          "REF-2",
+          "REF-3"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0004",
+        "gold_sections": [],
+        "retrieved_sections": [
+          "CAN-2",
+          "DEL-1",
+          "FAQ-2",
+          "FAQ-4",
+          "REF-1",
+          "RVP-1",
+          "STY-5",
+          "TRB-4"
+        ],
+        "gold_hit": null
+      },
+      {
+        "id": "PQ0005",
+        "gold_sections": [
+          "WAR-2"
+        ],
+        "retrieved_sections": [
+          "DWM-4",
+          "MKS-3",
+          "PAY-1",
+          "PAY-4",
+          "PLS-1",
+          "RET-1",
+          "STY-1",
+          "WAR-2"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0006",
+        "gold_sections": [
+          "PLS-2",
+          "RET-6"
+        ],
+        "retrieved_sections": [
+          "DEL-2",
+          "DEL-4",
+          "FAQ-2",
+          "MKT-1",
+          "PLS-2",
+          "RET-6",
+          "RET-7",
+          "RVP-1"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0008",
+        "gold_sections": [
+          "KB-00.3",
+          "REF-2"
+        ],
+        "retrieved_sections": [
+          "KB-00.2",
+          "KB-00.3",
+          "PAY-1",
+          "REF-2",
+          "RET-3",
+          "RET-8",
+          "STY-2",
+          "STY-3"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0009",
+        "gold_sections": [],
+        "retrieved_sections": [
+          "DEL-2",
+          "DEL-4",
+          "IDV-1",
+          "PAY-2",
+          "PAY-4",
+          "REF-4",
+          "RET-7",
+          "RET-9"
+        ],
+        "gold_hit": null
+      },
+      {
+        "id": "PQ0010",
+        "gold_sections": [
+          "DWM-2",
+          "RET-6"
+        ],
+        "retrieved_sections": [
+          "CAN-1",
+          "DEL-2",
+          "DWM-2",
+          "FAQ-3",
+          "PAY-3",
+          "PLS-2",
+          "REF-4",
+          "RET-4"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0013",
+        "gold_sections": [
+          "RET-4"
+        ],
+        "retrieved_sections": [
+          "FAQH-1",
+          "FAQH-3",
+          "FAQH-4"
+        ],
+        "gold_hit": false
+      },
+      {
+        "id": "PQ0014",
+        "gold_sections": [
+          "RET-2"
+        ],
+        "retrieved_sections": [
+          "CAN-4",
+          "CPN-3",
+          "FAQH-1",
+          "FAQH-2",
+          "FAQH-3",
+          "FAQH-4",
+          "IDV-2",
+          "RVP-1"
+        ],
+        "gold_hit": false
+      },
+      {
+        "id": "PQ0015",
+        "gold_sections": [],
+        "retrieved_sections": [
+          "CAN-1",
+          "CAN-2",
+          "CAN-4",
+          "CPN-1",
+          "DEL-6",
+          "IDV-2",
+          "MKS-1",
+          "REF-4"
+        ],
+        "gold_hit": null
+      },
+      {
+        "id": "PQ0016",
+        "gold_sections": [
+          "RET-2",
+          "RET-4"
+        ],
+        "retrieved_sections": [
+          "CAN-1",
+          "CAN-2",
+          "DWM-4",
+          "DWM-5",
+          "FAQ-2",
+          "FAQ-4",
+          "PAY-4",
+          "RET-2"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0018",
+        "gold_sections": [
+          "RET-2"
+        ],
+        "retrieved_sections": [
+          "FAQH-1",
+          "FAQH-2",
+          "FAQH-4"
+        ],
+        "gold_hit": false
+      },
+      {
+        "id": "PQ0019",
+        "gold_sections": [
+          "RET-3",
+          "RETv3-2"
+        ],
+        "retrieved_sections": [
+          "CAN-2",
+          "PAY-4",
+          "REF-5",
+          "RET-3",
+          "RET-9",
+          "TRB-2",
+          "TRK-1",
+          "TRK-2"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0020",
+        "gold_sections": [
+          "RET-2",
+          "RET-8"
+        ],
+        "retrieved_sections": [
+          "FAQH-1",
+          "FAQH-2",
+          "FAQH-3",
+          "FAQH-4"
+        ],
+        "gold_hit": false
+      },
+      {
+        "id": "PQ0021",
+        "gold_sections": [
+          "DEL-3"
+        ],
+        "retrieved_sections": [
+          "DEL-3",
+          "ESC-2",
+          "ESC-3",
+          "FAQ-2",
+          "FAQ-4",
+          "RET-2",
+          "TRK-1",
+          "WAR-3"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0022",
+        "gold_sections": [
+          "KB-00.3",
+          "REF-2"
+        ],
+        "retrieved_sections": [
+          "CAN-1",
+          "CPN-2",
+          "KB-00.2",
+          "KB-00.3",
+          "PAY-4",
+          "REF-2",
+          "RET-8",
+          "STY-3"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0023",
+        "gold_sections": [
+          "ESC-1"
+        ],
+        "retrieved_sections": [
+          "CAN-1",
+          "CPN-2",
+          "DEL-4",
+          "ESC-4",
+          "FAQ-2",
+          "PAY-3",
+          "PAY-4",
+          "REF-4"
+        ],
+        "gold_hit": false
+      },
+      {
+        "id": "PQ0024",
+        "gold_sections": [
+          "RET-2",
+          "RET-8"
+        ],
+        "retrieved_sections": [
+          "DEL-4",
+          "ESC-2",
+          "FAQ-1",
+          "FAQ-2",
+          "FAQ-4",
+          "FAQ-5",
+          "IDV-2",
+          "REF-2"
+        ],
+        "gold_hit": false
+      },
+      {
+        "id": "PQ0025",
+        "gold_sections": [
+          "KB-00.1",
+          "REF-2"
+        ],
+        "retrieved_sections": [
+          "ESC-2",
+          "FAQ-2",
+          "FAQ-4",
+          "IDV-2",
+          "PAY-1",
+          "REF-2",
+          "REF-4",
+          "RVP-3"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0026",
+        "gold_sections": [
+          "WAR-1",
+          "WAR-2"
+        ],
+        "retrieved_sections": [
+          "ESC-2",
+          "ESC-3",
+          "MKS-3",
+          "REF-3",
+          "TRB-4",
+          "TRK-1",
+          "WAR-1",
+          "WAR-3"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0027",
+        "gold_sections": [
+          "KB-00.3",
+          "REF-2"
+        ],
+        "retrieved_sections": [
+          "KB-00.2",
+          "KB-00.3",
+          "PAY-1",
+          "REF-2",
+          "RET-3",
+          "RET-8",
+          "STY-2",
+          "WAR-2"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0028",
+        "gold_sections": [
+          "KB-00.3",
+          "REF-2"
+        ],
+        "retrieved_sections": [
+          "CAN-1",
+          "KB-00.2",
+          "KB-00.3",
+          "PAY-1",
+          "PLS-3",
+          "REF-2",
+          "RET-8",
+          "STY-3"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0029",
+        "gold_sections": [
+          "KB-00.3",
+          "REF-2"
+        ],
+        "retrieved_sections": [
+          "KB-00.2",
+          "KB-00.3",
+          "PAY-1",
+          "REF-2",
+          "RET-3",
+          "RET-8",
+          "STY-2",
+          "WAR-2"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0030",
+        "gold_sections": [
+          "DWM-3",
+          "ESC-1"
+        ],
+        "retrieved_sections": [
+          "DWM-5",
+          "FAQ-2",
+          "FAQ-4",
+          "MKS-1",
+          "PLS-3",
+          "REF-6",
+          "TRB-2",
+          "TRK-2"
+        ],
+        "gold_hit": false
+      },
+      {
+        "id": "PQ0031",
+        "gold_sections": [
+          "TRB-4"
+        ],
+        "retrieved_sections": [
+          "CAN-1",
+          "KB-00.2",
+          "PLS-2",
+          "REF-1",
+          "RET-8",
+          "RVP-1",
+          "TRB-3",
+          "TRB-4"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0032",
+        "gold_sections": [
+          "WAR-2"
+        ],
+        "retrieved_sections": [
+          "DWM-4",
+          "MKS-3",
+          "PAY-1",
+          "PAY-4",
+          "PLS-1",
+          "RET-1",
+          "STY-1",
+          "WAR-2"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0033",
+        "gold_sections": [
+          "KB-00.3",
+          "REF-2"
+        ],
+        "retrieved_sections": [
+          "CAN-1",
+          "CPN-2",
+          "KB-00.2",
+          "KB-00.3",
+          "PAY-1",
+          "REF-2",
+          "RET-8",
+          "STY-3"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0034",
+        "gold_sections": [
+          "DEL-5",
+          "FAQ-5"
+        ],
+        "retrieved_sections": [
+          "DEL-5",
+          "ESC-3",
+          "FAQ-4",
+          "FAQ-5",
+          "REF-2",
+          "RVP-2",
+          "STY-5",
+          "TRK-1"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0035",
+        "gold_sections": [
+          "KB-00.3",
+          "REF-2"
+        ],
+        "retrieved_sections": [
+          "KB-00.2",
+          "KB-00.3",
+          "PAY-1",
+          "REF-2",
+          "RET-3",
+          "RET-8",
+          "STY-2",
+          "WAR-2"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0036",
+        "gold_sections": [
+          "RET-2",
+          "RET-5"
+        ],
+        "retrieved_sections": [
+          "CAN-1",
+          "CPN-1",
+          "FAQ-2",
+          "FAQ-4",
+          "IDV-3",
+          "PAY-4",
+          "REF-6",
+          "STY-5"
+        ],
+        "gold_hit": false
+      },
+      {
+        "id": "PQ0037",
+        "gold_sections": [],
+        "retrieved_sections": [
+          "FAQH-1",
+          "FAQH-2",
+          "FAQH-3",
+          "FAQH-4"
+        ],
+        "gold_hit": null
+      },
+      {
+        "id": "PQ0039",
+        "gold_sections": [
+          "RET-2",
+          "RET-5"
+        ],
+        "retrieved_sections": [
+          "CAN-1",
+          "FAQ-2",
+          "FAQ-4",
+          "PAY-4",
+          "REF-2",
+          "REF-6",
+          "TRB-2",
+          "TRK-1"
+        ],
+        "gold_hit": false
+      },
+      {
+        "id": "PQ0040",
+        "gold_sections": [
+          "CAN-2",
+          "FAQH-1"
+        ],
+        "retrieved_sections": [
+          "FAQH-1",
+          "FAQH-3",
+          "FAQH-4"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0041",
+        "gold_sections": [
+          "WAR-1",
+          "WAR-2"
+        ],
+        "retrieved_sections": [
+          "ESC-2",
+          "ESC-3",
+          "MKS-3",
+          "TRB-1",
+          "TRB-4",
+          "TRK-1",
+          "WAR-1",
+          "WAR-3"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0042",
+        "gold_sections": [
+          "CAN-2"
+        ],
+        "retrieved_sections": [
+          "CAN-1",
+          "CAN-2",
+          "DWM-4",
+          "FAQ-2",
+          "FAQ-4",
+          "PAY-4",
+          "REF-4",
+          "TRB-4"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0044",
+        "gold_sections": [
+          "RET-2"
+        ],
+        "retrieved_sections": [
+          "FAQH-1",
+          "FAQH-2",
+          "FAQH-3",
+          "FAQH-4"
+        ],
+        "gold_hit": false
+      },
+      {
+        "id": "PQ0045",
+        "gold_sections": [
+          "KB-00.1",
+          "REF-2"
+        ],
+        "retrieved_sections": [
+          "ESC-4",
+          "FAQ-1",
+          "IDV-2",
+          "PAY-1",
+          "PLS-2",
+          "REF-2",
+          "REF-3",
+          "RVP-2"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0046",
+        "gold_sections": [
+          "DWM-3",
+          "ESC-1"
+        ],
+        "retrieved_sections": [
+          "DWM-5",
+          "FAQ-2",
+          "FAQ-4",
+          "MKS-1",
+          "PLS-3",
+          "REF-6",
+          "TRB-2",
+          "TRK-2"
+        ],
+        "gold_hit": false
+      },
+      {
+        "id": "PQ0047",
+        "gold_sections": [
+          "DEL-4"
+        ],
+        "retrieved_sections": [
+          "CAN-1",
+          "DEL-1",
+          "DEL-4",
+          "FAQ-2",
+          "FAQ-4",
+          "IDV-1",
+          "MKT-1",
+          "REF-6"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0048",
+        "gold_sections": [
+          "DWM-1",
+          "FAQH-3"
+        ],
+        "retrieved_sections": [
+          "FAQH-1",
+          "FAQH-3",
+          "FAQH-4"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0049",
+        "gold_sections": [
+          "RET-8"
+        ],
+        "retrieved_sections": [
+          "FAQ-1",
+          "FAQ-2",
+          "FAQ-4",
+          "KB-00.2",
+          "REF-2",
+          "RET-1",
+          "RET-8",
+          "STY-3"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0050",
+        "gold_sections": [
+          "REF-2",
+          "REF-3"
+        ],
+        "retrieved_sections": [
+          "FAQ-1",
+          "FAQ-2",
+          "MKT-1",
+          "PAY-1",
+          "REF-2",
+          "REF-4",
+          "REF-5",
+          "RVP-1"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0051",
+        "gold_sections": [
+          "REF-2"
+        ],
+        "retrieved_sections": [
+          "CAN-1",
+          "ESC-2",
+          "IDV-1",
+          "KB-00.2",
+          "REF-6",
+          "RVP-1",
+          "RVP-3",
+          "WAR-1"
+        ],
+        "gold_hit": false
+      },
+      {
+        "id": "PQ0052",
+        "gold_sections": [
+          "KB-00.3",
+          "REF-2"
+        ],
+        "retrieved_sections": [
+          "KB-00.2",
+          "KB-00.3",
+          "PAY-1",
+          "REF-2",
+          "RET-3",
+          "RET-8",
+          "STY-2",
+          "STY-3"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0053",
+        "gold_sections": [],
+        "retrieved_sections": [
+          "CAN-1",
+          "CAN-3",
+          "CAN-4",
+          "FAQ-2",
+          "FAQ-4",
+          "PAY-2",
+          "RVP-1",
+          "WAR-2"
+        ],
+        "gold_hit": null
+      },
+      {
+        "id": "PQ0054",
+        "gold_sections": [
+          "RET-8"
+        ],
+        "retrieved_sections": [
+          "CAN-2",
+          "KB-00.2",
+          "KB-00.3",
+          "PAY-2",
+          "RET-2",
+          "RET-3",
+          "RET-8",
+          "STY-3"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0056",
+        "gold_sections": [
+          "RET-8"
+        ],
+        "retrieved_sections": [
+          "FAQ-1",
+          "FAQ-2",
+          "FAQ-4",
+          "KB-00.2",
+          "REF-2",
+          "RET-1",
+          "RET-8",
+          "STY-3"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0057",
+        "gold_sections": [
+          "RET-3"
+        ],
+        "retrieved_sections": [
+          "DEL-3",
+          "DWM-4",
+          "ESC-1",
+          "FAQ-2",
+          "REF-2",
+          "RET-2",
+          "RET-3",
+          "TRB-2"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0058",
+        "gold_sections": [
+          "RET-2",
+          "RET-3"
+        ],
+        "retrieved_sections": [
+          "CAN-2",
+          "DEL-5",
+          "DWM-4",
+          "FAQ-2",
+          "FAQ-5",
+          "PLS-2",
+          "RET-9",
+          "TRK-1"
+        ],
+        "gold_hit": false
+      },
+      {
+        "id": "PQ0059",
+        "gold_sections": [
+          "KB-00.3",
+          "REF-2"
+        ],
+        "retrieved_sections": [
+          "CAN-1",
+          "CPN-2",
+          "KB-00.2",
+          "KB-00.3",
+          "PAY-3",
+          "PAY-4",
+          "RET-8",
+          "STY-3"
+        ],
+        "gold_hit": true
+      },
+      {
+        "id": "PQ0060",
+        "gold_sections": [
+          "ESC-4",
+          "IDV-4"
+        ],
+        "retrieved_sections": [
+          "CAN-1",
+          "CAN-3",
+          "DEL-1",
+          "ESC-2",
+          "FAQ-4",
+          "IDV-2",
+          "IDV-3",
+          "IDV-4"
+        ],
+        "gold_hit": true
+      }
+    ]
+  }
+}

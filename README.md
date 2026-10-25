@@ -66,3 +66,13 @@ The evaluator reads the supplied practice questions and multi-turn conversations
 ## Voice smoke test
 
 After setting `GNANI_API_KEY`, create a short recording of your own voice saying a simple policy question, then run the batch command. Confirm the generated transcript, reply text, audio file, and JSON sources. The submitted batch runner supports multiple recordings in one directory.
+## Submission artifacts
+
+Public repository: [chaityy/zentromart-voiceops-2026](https://github.com/chaityy/zentromart-voiceops-2026)
+
+- [Capstone report (PDF)](https://github.com/chaityy/zentromart-voiceops-2026/blob/main/report.pdf)
+- [Demo walkthrough (MP4)](https://github.com/chaityy/zentromart-voiceops-2026/blob/main/demo.mp4)
+- [Retrieval-only evaluation (JSON)](https://github.com/chaityy/zentromart-voiceops-2026/blob/main/evaluation/retrieval-only.json)
+- [Local test and evaluation notes](https://github.com/chaityy/zentromart-voiceops-2026/blob/main/evaluation/local-checks.md)
+
+The 42-second video is a silent visual walkthrough. It documents the offline prototype and marks the live LLM and Gnani checks as not run. See the report and evaluation notes for the limits of the available evidence.
