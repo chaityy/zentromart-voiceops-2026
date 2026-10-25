@@ -15,6 +15,7 @@ A grounded customer-support agent for the VoiceOps capstone. The text agent retr
 py -m venv .venv
 .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
+pip install -e .
 Copy-Item .env.example .env
 ```
 
